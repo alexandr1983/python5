@@ -1,0 +1,10 @@
+text_file = open("test52.txt", "w", encoding="utf-8")
+content = text_file.write("ghcytctrc uyvu u u u u\n yfytf \n hjyv\n 12345 76544\n 7567576 i8y78t \n")
+text_file = open("test52.txt", "r")
+content = text_file.readlines()
+print(f"Kolichestvo strok: {len(content)}")
+text_file = open("test52.txt", "r")
+content = text_file.readlines()
+for i in range(0, len(content)):
+    print(f"Simvolov v {i + 1} stroke {len(content[i])}")
+text_file.close()
