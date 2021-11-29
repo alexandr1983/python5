@@ -1,4 +1,4 @@
-with open('test54.txt', 'r') as my_file:
+with open('test53.txt', 'r') as my_file:
     a = []
     b = []
     my_list = my_file.read().split('\n')
