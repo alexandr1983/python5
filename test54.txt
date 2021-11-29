@@ -1,0 +1,4 @@
+Karpov 17000
+Mullin 19000
+Ivanov 16000
+Nachalnikov 50000
